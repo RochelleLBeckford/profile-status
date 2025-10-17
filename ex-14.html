@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Title of the webpage -->
+    <title>Profile Status: The Border Box</title>
+    <!-- & Link to the .css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- & Header
+    ~ The space near the top of the webpage that will make it easier to understand and navigate
+    -->
+    <header class="flex-container">
+        <!-- & Figure
+        ~ Usually holds an image, diagram, etc..
+        ~ It can also hold more than one
+        -->
+        <figure>
+            <img
+                src="img/a-cherry-blossom-branch.png"
+                alt="Cherry Blossom Branch"
+                class="img-heading"
+            >
+        </figure>
+        <h1>Profile Status</h1>
+        <figure>
+            <img
+                src="img/a-cherry-blossom-branch.png"
+                alt="Cherry Blossom Branch"
+                class="img-heading"
+            >
+        </figure>
+    </header>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Main
+    ~ This is where the main information of the webpage will go
+    -->
+    <main>
+        <!-- & Section
+        ~ This groups together similar pieces of information
+        ~ i.e. A section discussing The Border Box of The Box Model
+        -->
+        <h2># The Border Box</h2>
+        <hr class="title-divider">
+        <br>
+
+        <!-- & This section will discuss The Border Box -->
+        <section>
+            <ul>
+                <li>Most elements have a border</li>
+                <ul>
+                    <li>
+                        <img
+                            src="img/b-the-border-box.png"
+                            alt="The Border Box"
+                            class="img-border-box"
+                        >
+                    </li>
+                </ul>
+                <li>
+                    The way to make these borders visible is to add a border to elements using CSS "border" property
+                </li>
+                <li>
+                    The "border" property is actually a shorthand that combines the values of multiple properties into one declaration:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/c-syntax-border-properties.png"
+                                alt=""
+                            class="img-border-box"
+                            >
+                        </li>
+                        <li>
+                            "border-width" determines the "thickness" of the border, and is usually set with absolute units (i.e. pixels)
+                        </li>
+                        <li>
+                            "border-style" includes values like "solid", "dashed", "dotted"
+                        </li>
+                        <li>
+                            "border-color" can be set with a named color, an rgb() value, or a hexadecimal
+                        </li>
+                        <li>
+                            <img
+                                src="img/d-various-borders.png"
+                                alt="Various types of borders"
+                                class="img-various-border"
+                            >
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    A single border can be styled as well:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/e-syntax-style-single-border.png"
+                                alt="Syntax to style a single border"
+                                class="img-border-box"
+                            >
+                        </li>
+                        <li>
+                            Minus a few hidden styles, this is what is rendered:
+                            <ul>
+                                <li>
+                                    <img
+                                        src="img/f-rendered-styling-single-border.png"
+                                        alt="Rendered styling of a single border"
+                                        class="img-border-box"
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <br>
+        <hr class="section-divider">
+        <br>
+
+        <!-- & This section will discuss rouding the corners of a border -->
+        <h2># Round Corners</h2>
+        <hr class="title-divider">
+        <br>
+
+        <ul>
+            <li>
+                The other common practice for borders is rounding the corners using the "border-radius" property:
+                <ul>
+                    <li>
+                        <img
+                            src="img/g-syntax-round-border-corners.png"
+                            alt="Syntax to round border corners"
+                            class="img-border-box"
+                        >
+                    </li>
+                    <li>
+                        This is what is rendered:
+                        <ul>
+                            <li>
+                                <img
+                                    src="img/h-rendered-ouput.png"
+                                    alt="Rendered output"
+                                    class="img-border-box"
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Both absolute and relative units can be used. The larger the value, the rounder the corner will be.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Footer
+    ~ This is where the important information will go that is not suitable for the <header> element
+        ~ Footnotes
+        ~ Links to extended resources
+            ~ In the <a> element -> use the following for the href attribute
+                ~ href = "/privacy"
+            ~ Also use the target attribute to ope the link in a new web browser tab
+                ~ target = "_blank"
+            ~ Copyright information
+                ~ &copy; -> This is the symbol for. copyright
+    -->
+    <footer>
+        &copy; 2025 EtariaL33. All rights reserved.
+    </footer>
+</body>
+</html>
