@@ -78,7 +78,7 @@ li::marker {
     margin: 5px;
 }
 
-/* & This will style the div elements */
+/* & This will style the elements in the "index.html" */
 /* ~ This will style the <div> elements */
 div {
     border: 2px solid grey;
